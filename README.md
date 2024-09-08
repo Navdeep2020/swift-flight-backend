@@ -22,7 +22,6 @@ Follow these steps to set up and run the Vapor server locally:
 
 1. **Install Vapor**:
    ```bash
-   brew tap vapor/homebrew-tap
    brew install vapor
    vapor new MyWebApp
    cd MyWebApp
