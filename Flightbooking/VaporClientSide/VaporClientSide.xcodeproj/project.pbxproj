@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73E5CA652C8C90D5000A19CC /* VaporClientSideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA642C8C90D5000A19CC /* VaporClientSideApp.swift */; };
+		73E5CA672C8C90D5000A19CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA662C8C90D5000A19CC /* ContentView.swift */; };
+		73E5CA692C8C90D6000A19CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E5CA682C8C90D6000A19CC /* Assets.xcassets */; };
+		73E5CA6C2C8C90D6000A19CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E5CA6B2C8C90D6000A19CC /* Preview Assets.xcassets */; };
+		73E5CA742C8DDD45000A19CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA732C8DDD45000A19CC /* HomeView.swift */; };
+		73E5CA782C8DDE3A000A19CC /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA772C8DDE3A000A19CC /* Flight.swift */; };
+		73E5CA7B2C8DDF0F000A19CC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA7A2C8DDF0F000A19CC /* HomeViewModel.swift */; };
+		73E5CA7E2C8DE0DA000A19CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA7D2C8DE0DA000A19CC /* NetworkManager.swift */; };
+		73E5CA812C8DE3A8000A19CC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA7F2C8DE3A8000A19CC /* Extensions.swift */; };
+		73E5CA8A2C8DE471000A19CC /* FlightDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA822C8DE471000A19CC /* FlightDetail.swift */; };
+		73E5CA8B2C8DE471000A19CC /* FlightDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA842C8DE471000A19CC /* FlightDetailViewModel.swift */; };
+		73E5CA8C2C8DE471000A19CC /* FlightDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA862C8DE471000A19CC /* FlightDetailCard.swift */; };
+		73E5CA8D2C8DE471000A19CC /* FlightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E5CA872C8DE471000A19CC /* FlightDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73E5CA612C8C90D5000A19CC /* VaporClientSide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaporClientSide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E5CA642C8C90D5000A19CC /* VaporClientSideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporClientSideApp.swift; sourceTree = "<group>"; };
+		73E5CA662C8C90D5000A19CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73E5CA682C8C90D6000A19CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73E5CA6B2C8C90D6000A19CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73E5CA732C8DDD45000A19CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		73E5CA772C8DDE3A000A19CC /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		73E5CA7A2C8DDF0F000A19CC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		73E5CA7D2C8DE0DA000A19CC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		73E5CA7F2C8DE3A8000A19CC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		73E5CA822C8DE471000A19CC /* FlightDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetail.swift; sourceTree = "<group>"; };
+		73E5CA842C8DE471000A19CC /* FlightDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailViewModel.swift; sourceTree = "<group>"; };
+		73E5CA862C8DE471000A19CC /* FlightDetailCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailCard.swift; sourceTree = "<group>"; };
+		73E5CA872C8DE471000A19CC /* FlightDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73E5CA5E2C8C90D4000A19CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73E5CA582C8C90D4000A19CC = {
+			isa = PBXGroup;
+			children = (
+				73E5CA632C8C90D5000A19CC /* VaporClientSide */,
+				73E5CA622C8C90D5000A19CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73E5CA622C8C90D5000A19CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA612C8C90D5000A19CC /* VaporClientSide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E5CA632C8C90D5000A19CC /* VaporClientSide */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA802C8DE3A8000A19CC /* Utils */,
+				73E5CA7C2C8DE0C9000A19CC /* Managers */,
+				73E5CA722C8DDD1A000A19CC /* Home */,
+				73E5CA892C8DE471000A19CC /* Detail */,
+				73E5CA642C8C90D5000A19CC /* VaporClientSideApp.swift */,
+				73E5CA662C8C90D5000A19CC /* ContentView.swift */,
+				73E5CA682C8C90D6000A19CC /* Assets.xcassets */,
+				73E5CA6A2C8C90D6000A19CC /* Preview Content */,
+			);
+			path = VaporClientSide;
+			sourceTree = "<group>";
+		};
+		73E5CA6A2C8C90D6000A19CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA6B2C8C90D6000A19CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73E5CA722C8DDD1A000A19CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA792C8DDEF4000A19CC /* ViewModel */,
+				73E5CA762C8DDE2D000A19CC /* Model */,
+				73E5CA752C8DDE20000A19CC /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		73E5CA752C8DDE20000A19CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA732C8DDD45000A19CC /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73E5CA762C8DDE2D000A19CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA772C8DDE3A000A19CC /* Flight.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E5CA792C8DDEF4000A19CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA7A2C8DDF0F000A19CC /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73E5CA7C2C8DE0C9000A19CC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA7D2C8DE0DA000A19CC /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		73E5CA802C8DE3A8000A19CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA7F2C8DE3A8000A19CC /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		73E5CA832C8DE471000A19CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA822C8DE471000A19CC /* FlightDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73E5CA852C8DE471000A19CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA842C8DE471000A19CC /* FlightDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73E5CA882C8DE471000A19CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA862C8DE471000A19CC /* FlightDetailCard.swift */,
+				73E5CA872C8DE471000A19CC /* FlightDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73E5CA892C8DE471000A19CC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				73E5CA832C8DE471000A19CC /* Model */,
+				73E5CA852C8DE471000A19CC /* ViewModel */,
+				73E5CA882C8DE471000A19CC /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73E5CA602C8C90D4000A19CC /* VaporClientSide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E5CA6F2C8C90D6000A19CC /* Build configuration list for PBXNativeTarget "VaporClientSide" */;
+			buildPhases = (
+				73E5CA5D2C8C90D4000A19CC /* Sources */,
+				73E5CA5E2C8C90D4000A19CC /* Frameworks */,
+				73E5CA5F2C8C90D4000A19CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaporClientSide;
+			productName = VaporClientSide;
+			productReference = 73E5CA612C8C90D5000A19CC /* VaporClientSide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E5CA592C8C90D4000A19CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					73E5CA602C8C90D4000A19CC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 73E5CA5C2C8C90D4000A19CC /* Build configuration list for PBXProject "VaporClientSide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73E5CA582C8C90D4000A19CC;
+			productRefGroup = 73E5CA622C8C90D5000A19CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73E5CA602C8C90D4000A19CC /* VaporClientSide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73E5CA5F2C8C90D4000A19CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E5CA6C2C8C90D6000A19CC /* Preview Assets.xcassets in Resources */,
+				73E5CA692C8C90D6000A19CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73E5CA5D2C8C90D4000A19CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E5CA7E2C8DE0DA000A19CC /* NetworkManager.swift in Sources */,
+				73E5CA742C8DDD45000A19CC /* HomeView.swift in Sources */,
+				73E5CA782C8DDE3A000A19CC /* Flight.swift in Sources */,
+				73E5CA8D2C8DE471000A19CC /* FlightDetailView.swift in Sources */,
+				73E5CA672C8C90D5000A19CC /* ContentView.swift in Sources */,
+				73E5CA8B2C8DE471000A19CC /* FlightDetailViewModel.swift in Sources */,
+				73E5CA7B2C8DDF0F000A19CC /* HomeViewModel.swift in Sources */,
+				73E5CA8C2C8DE471000A19CC /* FlightDetailCard.swift in Sources */,
+				73E5CA652C8C90D5000A19CC /* VaporClientSideApp.swift in Sources */,
+				73E5CA8A2C8DE471000A19CC /* FlightDetail.swift in Sources */,
+				73E5CA812C8DE3A8000A19CC /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		73E5CA6D2C8C90D6000A19CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73E5CA6E2C8C90D6000A19CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73E5CA702C8C90D6000A19CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VaporClientSide/Preview Content\"";
+				DEVELOPMENT_TEAM = D5XYSZ732Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paxcom.VaporClientSide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73E5CA712C8C90D6000A19CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VaporClientSide/Preview Content\"";
+				DEVELOPMENT_TEAM = D5XYSZ732Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = paxcom.VaporClientSide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73E5CA5C2C8C90D4000A19CC /* Build configuration list for PBXProject "VaporClientSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E5CA6D2C8C90D6000A19CC /* Debug */,
+				73E5CA6E2C8C90D6000A19CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E5CA6F2C8C90D6000A19CC /* Build configuration list for PBXNativeTarget "VaporClientSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E5CA702C8C90D6000A19CC /* Debug */,
+				73E5CA712C8C90D6000A19CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73E5CA592C8C90D4000A19CC /* Project object */;
+}
